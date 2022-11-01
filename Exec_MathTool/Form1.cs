@@ -18,7 +18,6 @@ namespace Exec_MathTool
 			InitializeComponent();
 			lblResult.Text = string.Empty;
 			cboBox1.SelectedIndex = 0;
-			//cboBox1.SelectedIndexChanged();
 		}
 
 		private void btnCal_Click(object sender, EventArgs e)
@@ -39,6 +38,11 @@ namespace Exec_MathTool
 				result += $"{number}*{i}={number * i}\r\n";
 			}
 			return result;
+		}
+
+		private void cboBox1_SelectedIndexChanged(object sender, EventArgs e)
+		{
+			
 		}
 	}
 }

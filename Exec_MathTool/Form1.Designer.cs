@@ -49,6 +49,7 @@
 			this.cboBox1.Name = "cboBox1";
 			this.cboBox1.Size = new System.Drawing.Size(128, 23);
 			this.cboBox1.TabIndex = 0;
+			this.cboBox1.SelectedIndexChanged += new System.EventHandler(this.cboBox1_SelectedIndexChanged);
 			// 
 			// btnCal
 			// 
